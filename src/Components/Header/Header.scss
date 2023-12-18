@@ -1,0 +1,29 @@
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px;
+    &__links {
+        display: flex;
+        gap: 40px;
+        & a{
+            font-size: 16px;
+            font-weight: 500;
+            color: #000;
+            text-decoration: none;
+            font-family: Roboto, 'sans-serif';
+            text-transform: uppercase;
+            &:hover{
+                color: #7c7c7c;
+                transition: 0.6s;
+            }
+        }
+    }
+    &__buttons{
+        display: flex;
+        gap: 24px;
+        & button{
+            background-color: transparent;
+            border: none;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.section-collaborations{
+    display: flex;
+
+    &__companies{
+        color: #000;
+        font-family: Orbitron, 'sans-serif';
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
